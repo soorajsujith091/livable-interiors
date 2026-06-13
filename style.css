@@ -1528,19 +1528,8 @@ img {
 }
 
 .blog-img {
+  height: 260px;
   overflow: hidden;
-}
-
-.blog-card-1 .blog-img {
-  height: 210px;
-}
-
-.blog-card-2 .blog-img {
-  height: 280px;
-}
-
-.blog-card-3 .blog-img {
-  height: 350px;
 }
 
 .blog-img img {
@@ -1566,7 +1555,7 @@ img {
   font-size: 18px;
   font-weight: 600;
   color: var(--dark-2);
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   line-height: 1.4;
   text-transform: uppercase;
 }
@@ -1579,7 +1568,7 @@ img {
   font-size: 14px;
   color: var(--gray);
   line-height: 1.6;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   flex-grow: 1;
 }
 
@@ -1595,16 +1584,8 @@ img {
 }
 
 @media (max-width: 991px) {
-  .blog-card-1 .blog-img {
-    height: 220px;
-  }
-
-  .blog-card-2 .blog-img {
-    height: 260px;
-  }
-
-  .blog-card-3 .blog-img {
-    height: 300px;
+  .blog-img {
+    height: 230px;
   }
 }
 
